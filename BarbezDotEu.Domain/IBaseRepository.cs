@@ -22,13 +22,13 @@ namespace BarbezDotEu.Domain
         /// <summary>
         /// Removes an entity from the collection of entities.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">The entity to remove.</param>
         void Remove(IBaseEntity<TKey> entity);
 
         /// <summary>
-        /// Removes an entity from the collection of entities.
+        /// Adds an entity to the collection of entities.
         /// </summary>
-        /// <param name="entity"></param>
+        /// <param name="entity">The entity to add.</param>
         void Add(IBaseEntity<TKey> entity);
     }
 }
