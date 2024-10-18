@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Authors>Hannes Barbez</Authors>
+        <Company>Hannes Barbez</Company>
+        <Title>BarbezDotEu.Domain</Title>
+        <Product>BarbezDotEu.Domain</Product>
+        <PackageId>BarbezDotEu.Domain</PackageId>
+        <Copyright>©2024 Hannes Barbez</Copyright>
+        <Version>1.0.0-alpha-1</Version>
+        <Description>Generics for business domain data: basics for repositories, root entities, queries, DTOs, misc. entities, and unit of work.</Description>
+        <PackageTags>entity;unit-of-work;UoW;repository;generics;barbez</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+        <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Domain</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>ICON.png</PackageIcon>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <Folder Include="nupkg\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\ICON.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
+</Project>
