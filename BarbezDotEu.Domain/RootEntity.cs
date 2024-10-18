@@ -2,6 +2,9 @@
 
 namespace BarbezDotEu.Domain
 {
+    /// <summary>
+    /// Defines an abstract root entity.
+    /// </summary>
     public abstract class RootEntity
     {
     }

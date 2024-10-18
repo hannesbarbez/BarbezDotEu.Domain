@@ -7,7 +7,7 @@
         <Product>BarbezDotEu.Domain</Product>
         <PackageId>BarbezDotEu.Domain</PackageId>
         <Copyright>©2024 Hannes Barbez</Copyright>
-        <Version>1.0.0-alpha-1</Version>
+        <Version>1.0.0-alpha-2</Version>
         <Description>Generics for business domain data: basics for repositories, root entities, queries, DTOs, misc. entities, and unit of work.</Description>
         <PackageTags>entity;unit-of-work;UoW;repository;generics;barbez</PackageTags>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
